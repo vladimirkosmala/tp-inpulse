@@ -1,4 +1,5 @@
 # Git - Gestionnaire de Versions
+## 1. Objet du document
 ## 2. Création de repository (local et remote)
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ## 4. Commandes pour modifier un fichier (add + commit)
