@@ -7,6 +7,7 @@
 ## 8.Commandes liées aux branches (création, vérification et changement de branche)
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
+## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ## 13. Commande pour avoir de l'aide et d'autres commandes qui peuvent être utiles à connaître
 
 
