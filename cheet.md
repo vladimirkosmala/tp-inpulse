@@ -4,8 +4,8 @@
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ## 4. Commandes pour modifier un fichier (add + commit)
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
-###  5.1
-###  5.2
+###  5.1 Le git status:
+###  5.2 Le git diff:
 ## 6.Commande pour vérifier l'historique des modifications (log)
 ## 8.Commandes liées aux branches (création, vérification et changement de branche)
 ## 9.Commandes pour la synchronisation (merge et rebase)
