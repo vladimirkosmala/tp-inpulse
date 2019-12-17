@@ -5,6 +5,7 @@
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ## 6.Commande pour vérifier l'historique des modifications (log)
 ## 8.Commandes liées aux branches (création, vérification et changement de branche)
+## 9.Commandes pour la synchronisation (merge et rebase)
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
