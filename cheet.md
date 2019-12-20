@@ -10,7 +10,11 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ###  5.1 Le git status:
 ###  5.2 Le git diff:
 ## 6.Commande pour vérifier l'historique des modifications (log)
-## 8.Commandes liées aux branches (création, vérification et changement de branche)
+## 8.Commandes liées aux branches (création, vérification et changement de branche
+###  8.1 definition de Branch 
+
+Une branche dans Git est simplement un pointeur léger et déplaçable vers un de ces commits. La branche par défaut dans Git s'appelle master.
+
 ## 9.Commandes pour la synchronisation (merge et rebase)
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ###10.1 : définitions du repository:
