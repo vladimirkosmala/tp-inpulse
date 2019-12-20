@@ -5,6 +5,7 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 
 ## 2. Création de repository (local et remote)
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
+### 3.1 Définition de working directory
 ## 4. Commandes pour modifier un fichier (add + commit)
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status:
