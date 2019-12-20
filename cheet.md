@@ -30,7 +30,8 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ### 12.1 Définition de git push
-#### git push: envoie des modifications sur le repository
+#### 1.git push: envoie des modifications sur le repository
+#### 2.git pull récupère les données depuis le serveur qui a été initialement cloné et essaie de les fusionner dans votre branche de travail actuel
 ## 13. Commande pour avoir de l'aide et d'autres commandes qui peuvent être utiles à connaître
 ### 13.1 Commandes d'aide
 ### 13.2 Liens utiles
