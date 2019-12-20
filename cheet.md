@@ -17,6 +17,7 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 Une branche dans Git est simplement un pointeur léger et déplaçable vers un de ces commits. La branche par défaut dans Git s'appelle master.
 
 ## 9.Commandes pour la synchronisation (merge et rebase)
+### 9.1 Definition Merge
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ###10.1 : définitions du repository:
 ###10.2 : interêt du repository:
