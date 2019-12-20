@@ -12,7 +12,7 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ## 6.Commande pour vérifier l'historique des modifications (log)
 ## 8.Commandes liées aux branches (création, vérification et changement de branche)
 ## 9.Commandes pour la synchronisation (merge et rebase)
-### 9.1 Introduction
+### 9.1 Definition Merge
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ###10.1 : définitions du repository:
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
