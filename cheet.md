@@ -16,6 +16,7 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ###10.1 : définitions du repository:
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
+### 12.1 Définition de git push
 ## 13. Commande pour avoir de l'aide et d'autres commandes qui peuvent être utiles à connaître
 ### 13.1 Commandes d'aide
 ### 13.2 Liens utiles
