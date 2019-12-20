@@ -22,6 +22,12 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 
 `git branch`
 
+###  8.3 Comment créer une nouvelle Branche
+
+Créer une nouvelle branche
+
+`git branch [branch name]`
+
 ## 9.Commandes pour la synchronisation (merge et rebase)
 ### 9.1 Definition Merge
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
