@@ -22,6 +22,8 @@ git-log - Afficher les journaux de validation
 git log [<options>] [<plage de révision>] [[--] <chemin>…​]
 
 ## 7.Commandes pour revenir en arrière (reset)
+### 7.1 Que fait le git reset
+### 7.2 Qu'est-ce que le HEAD ?
 ## 8.Commandes liées aux branches (création, vérification et changement de branche
 ###  8.1 definition de Branch 
 
