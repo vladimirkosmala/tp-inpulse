@@ -30,7 +30,11 @@ Le log de Git est un outil formidable pour analyser l’historique des commits e
 
 ## 7.Commandes pour revenir en arrière (reset)
 ### 7.1 Que fait le git reset
+Le git reset permet d’agir sur notre historique de versions et notre travail en cours. Concretement, il réintialise la HEAD actuelle à l'état spécifié.
 ### 7.2 Qu'est-ce que le HEAD ?
+Head est un pointeur. En temps normal HEAD est positionné sur une branche qui constitue une référence, et qui est positionnée sur un commit. Lorsqu'un nouveau commit est créé, la branche se positionne sur ce nouveau commit, et HEAD suit la branche.
+
+
 ## 8.Commandes liées aux branches (création, vérification et changement de branche
 ###  8.1 definition de Branch 
 
