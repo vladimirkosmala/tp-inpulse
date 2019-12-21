@@ -9,7 +9,8 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ## 4. Commandes pour modifier un fichier (add + commit)
 ### 4.1 le git add :
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
-###  5.1 Le git status:
+###  5.1 Le git status: 
+Montre les chemins qui ont des différences entre le fichier d’index et le commit HEAD actuel.
 ###  5.2 Le git diff:
 ## 6.Commande pour vérifier l'historique des modifications (log)
 
