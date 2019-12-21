@@ -12,6 +12,8 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ###  5.1 Le git status:
 ###  5.2 Le git diff:
 ## 6.Commande pour vérifier l'historique des modifications (log)
+### 6.1 Terminaison 
+git-log - Afficher les journaux de validation
 ## 7.Commandes pour revenir en arrière (reset)
 ## 8.Commandes liées aux branches (création, vérification et changement de branche
 ###  8.1 definition de Branch 
