@@ -28,6 +28,25 @@ git log [<options>] [<plage de révision>] [[--] <chemin>…​]
 ### 6.3 A quoi ça sert ?!
 Le log de Git est un outil formidable pour analyser l’historique des commits et resituer un contexte. Il nous permet aussi bien de suivre un projet dans sa globalité que dans ses détails : fonctionnalités, correctifs, fichiers et répertoires, auteurs, dates…
 
+### 6.4 Pourquoi l'utilser ?!
+####6.4.1.Afficher un historique pour se resituer
+  Limiter la profondeur/le nombre de commits affichés
+  Limiter le suivi à certains fichiers et répertoires
+  Voir les modifications introduites par chaque commit
+####6.4.2.Voir l’historique récent des branches
+  cibler une branche dédiée
+  cibler un motif de branche (feat/*)
+####6.4.3 Vérifier le travail terminé
+  Voir les fusions effectuées
+  Lister les commits entre 2 versions
+#### 6.4.4 Rechercher
+  Dans les métadonnées du commit : dates, auteur, message…
+  Dans les modifications introduites par les commits :
+      - les ajouts et suppressions du texte recherché
+      - les changements survenus autour d’un texte connu (sur la même ligne)
+  Dans un fichier précis, les évolutions d'un fragment (typiquement le corps d’une fonction/méthode)
+  Obtenir des statistiques pour le projet
+
 ## 7.Commandes pour revenir en arrière (reset)
 ### 7.1 Que fait le git reset
 ### 7.2 Qu'est-ce que le HEAD ?
