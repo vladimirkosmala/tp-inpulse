@@ -8,6 +8,7 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ### 3.1 Définition de working directory
 ## 4. Commandes pour modifier un fichier (add + commit)
 ### 4.1 le git add :
+### 4.2 le git commit : 
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status:
 ###  5.2 Le git diff:
