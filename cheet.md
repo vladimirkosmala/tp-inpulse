@@ -10,7 +10,7 @@ L'objet de ce document est de donner une définition au logiciel Git et de déta
 ### 4.1 le git add :
 #### 4.1.1 Stages the files, ready for commit
 ### 4.2 le git commit :  
-
+#### 4.2.1 commit all staged files to versioned history
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status: 
 Montre les chemins qui ont des différences entre le fichier d’index et le commit HEAD actuel.
