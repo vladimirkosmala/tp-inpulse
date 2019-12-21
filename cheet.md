@@ -30,7 +30,13 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ### 12.1 Définition de git push
-#### git push: envoie des modifications sur le repository
+Git push: envoie des modifications sur le repository.
+### 12.2 Définition de pull request
+Une pull-request désigne l'action qui consiste à demander au détenteur du dépôt original de prendre en compte les modifications que vous avez apportées et que vous souhaitez partager.
+
+Il a alors plusieurs possibilités de son côté : commenter votre demande (par exemple si votre code ne respecte pas les normes), refuser votre demande ou bien entendu, l'accepter !
+
+Le fait d'accepter votre pull-request a aussi un petit nom, c'est le merge.
 ## 13. Commande pour avoir de l'aide et d'autres commandes qui peuvent être utiles à connaître
 ### 13.1 Commandes d'aide
 ### 13.2 Liens utiles
