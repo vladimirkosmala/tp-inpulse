@@ -52,7 +52,18 @@ Le log de Git est un outil formidable pour analyser l’historique des commits e
 Le git reset permet d’agir sur notre historique de versions et notre travail en cours. Concretement, il réintialise la HEAD actuelle à l'état spécifié.
 ### 7.2 Qu'est-ce que le HEAD ?
 Head est un pointeur. En temps normal HEAD est positionné sur une branche qui constitue une référence, et qui est positionnée sur un commit. Lorsqu'un nouveau commit est créé, la branche se positionne sur ce nouveau commit, et HEAD suit la branche.
-
+### 7.3 Comment cibler une version antérieur ?
+La première chose à faire pour revenir à une version antérieure est d'abord de repérer cette version. La commande git log liste les différents commit (enregistrements) effectués. La chaîne de caractères situé à côté du mot commit permet d'identifier l'enregistrement. Elle sera utilisée dans toutes les commandes nécessitant un numéro d'enregistrement.
+### 7.4 Comment revenir en arrière ? 
+Il est possible de revenir en arrière et de supprimer toutes les modifications qui ont été enregistrées depuis la révision mais la commande ne sera pas la même si vous ayez publié les commits ou non.
+Si vos commits n'ont pas été publiés, il suffit de revenir à la version antérieure du répertoire de travail grâce à la commande git reset :
+--> git reset --hard {numéro de version}
+Si vous possédez des modifications non enregistrées dans votre répertoire de travail et que vous souhaitez les conserver, il faut exécuter en plus la commande get stash.
+--> git stash #sauvegarde les modifications
+--> git reset --hard {numéro de version}
+ remet à zéro le répertoire de travail par rapport à la révision spécifiée
+git stash pop #applique les modifications sauvegardées
+Si un fichier est concerné à la fois par les modifications en cours et le retour à la version antérieure du répertoire de travail, il y aura un conflit à résoudre.
 
 ## 8.Commandes liées aux branches (création, vérification et changement de branche
 ###  8.1 definition de Branch 
