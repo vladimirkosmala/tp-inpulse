@@ -4,6 +4,25 @@
 L'objet de ce document est de donner une définition au logiciel Git et de détailler les principales commandes d'utilisation.
 
 ## 2. Création de repository (local et remote)
+
+	Petit rappel les <...> indique qu'il s'agit d'un paramètre à inserer 
+	Tandis que les [...] indique un paramètre facultatif.
+
+### 2.1 Le repository local
+	git init          -> permet de créer un repository en local 
+	git clone <URL>   -> permet de cloner("copier") un repository distant sur son propre ordinateur dans un repository local.
+			     permet d'avoir toutes les anciennes versions du projet contenu dans le repository distant. 
+### 2.2 Le repository remote (à distance)
+	git remote       	     -> permet de voir tout les repository distants existants.
+	git fetch [<NOM>]	     -> permet de recuperer des données depuis un repository distant.
+	git remove <NOM> 	     -> supprime un repository distant.
+	git add <NOM> <URL>	     -> permet d'ajouter un nouver repository distant.
+	git pull         	     -> permet de recuperer le contenue d'un repository distant et met le nouveau contenu du repository local dans le working directory.
+			    	       ! correspond a un git fetch suivi d'un git merge !
+	git push [<NOM> [<BRANCHE>]] -> Envoyer les dernières versions (commits) de la branche du repository local à la même branche du repository remote.
+					Envoyer son travail vers les repository distant. Fair d'abord un git add et git commit.
+	On peut également créer un repository en ligne directement sur github.com en appuyant sur New en haut gauche de la page il suffit ensuite de remplir les différents champs. On peut le mettre en publique ou bien privé également et récuperer son url.
+
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ### 3.1 Définition de working directory
 ## 4. Commandes pour modifier un fichier (add + commit)
