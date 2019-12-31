@@ -3,6 +3,12 @@
 			
 L'objet de ce document est de donner une définition au logiciel Git et de détailler les principales commandes d'utilisation.
 
+### 1.1 Définition
+
+Git est un système de contrôle de version open source gratuit, créé par Linus Torvalds, en 2005. C'est un logiciel distribué : chaque développeur dispose en local de l'historique complet du dépôt de son code. Un serveur est très souvent utilisé en tant que point de rencontre entre les développeurs : Le serveur connaît l’historique des modifications et permet l’échange d’informations entre les développeurs, qui eux possèdent également l’historique des modifications.
+
+![Schema de logiciel distribué avec un serveur](https://user.oc-static.com/files/236001_237000/236864.png)
+
 ## 2. Création de repository (local et remote)
 
 	Petit rappel les <...> indique qu'il s'agit d'un paramètre à inserer 
