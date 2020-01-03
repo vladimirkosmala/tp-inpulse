@@ -9,6 +9,9 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 
 ![Schema de logiciel distribué avec un serveur](https://user.oc-static.com/files/236001_237000/236864.png)
 
+* Liens intéressants :
+	* [Et si vous compreniez enfin Git et GitHub ?](https://blog.lesieur.name/comprendre-et-utiliser-git-avec-vos-projets/)
+
 ## 2. Création de repository (local et remote)
 
 	Petit rappel les <...> indique qu'il s'agit d'un paramètre à inserer 
