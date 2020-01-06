@@ -108,6 +108,10 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 ###10.2 : interêt du repository:
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
+Récupérer le contenu du repository distant et met le nouveau contenu du repository local dans le working directory. 
+
+`git pull`
+
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ### 12.1 Définition de git push
 Git push: envoie des modifications sur le repository.
