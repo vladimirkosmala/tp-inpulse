@@ -126,6 +126,7 @@ Il a alors plusieurs possibilités de son côté : commenter votre demande (par 
 Le fait d'accepter votre pull-request a aussi un petit nom, c'est le merge.
 ## 13. Commande pour avoir de l'aide et d'autres commandes qui peuvent être utiles à connaître
 ### 13.1 Commandes d'aide
+Pour avoir de l'aide, tapez cette commande:
 ### 13.2 Liens utiles
 
 
