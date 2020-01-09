@@ -132,6 +132,6 @@ Pour avoir de l'aide, tapez cette commande:
 
 ### 13.2 Liens utiles
 
-
+Pour avoir un entrainement sur Git, on peut aller sur le site suivant :
 
 
