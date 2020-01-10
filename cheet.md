@@ -57,14 +57,14 @@ git log [<options>] [<plage de révision>] [[--] <chemin>…​]
 Le log de Git est un outil formidable pour analyser l’historique des commits et resituer un contexte. Il nous permet aussi bien de suivre un projet dans sa globalité que dans ses détails : fonctionnalités, correctifs, fichiers et répertoires, auteurs, dates…
 
 ### 6.4 Pourquoi l'utilser ?!
-####6.4.1.Afficher un historique pour se resituer
+#### 6.4.1.Afficher un historique pour se resituer
   Limiter la profondeur/le nombre de commits affichés
   Limiter le suivi à certains fichiers et répertoires
   Voir les modifications introduites par chaque commit
-####6.4.2.Voir l’historique récent des branches
+#### 6.4.2.Voir l’historique récent des branches
   cibler une branche dédiée
   cibler un motif de branche (feat/*)
-####6.4.3 Vérifier le travail terminé
+#### 6.4.3 Vérifier le travail terminé
   Voir les fusions effectuées
   Lister les commits entre 2 versions
 #### 6.4.4 Rechercher
@@ -113,8 +113,8 @@ Créer une nouvelle branche
 ## 9.Commandes pour la synchronisation (merge et rebase)
 ### 9.1 Definition Merge
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
-###10.1 : définitions du repository:Le répertoire caché .git est nommé dépôt (en anglais repository).
-###10.2 : interêt du repository:
+### 10.1 : définitions du repository:Le répertoire caché .git est nommé dépôt (en anglais repository).
+### 10.2 : interêt du repository:
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
 Récupérer le contenu du repository distant et met le nouveau contenu du repository local dans le working directory. 
