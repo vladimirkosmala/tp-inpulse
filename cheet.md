@@ -134,4 +134,5 @@ Pour avoir de l'aide, tapez cette commande:
 
 Pour avoir un entrainement sur Git, on peut aller sur le site suivant :
 
+https://training.github.com/
 
