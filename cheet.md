@@ -148,6 +148,9 @@ Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer 
 
 Comme son nom l’indique, rebase est là pour changer la « base » d’une branche, c’est-à-dire son point de départ. Elle rejoue une série de commits à partir d’un nouvelle base de travail.
 
+## 9.3 Utilisation
+
+
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ### 10.1 : définitions du repository:
 repository: l’emplacement des versions enregistrées dans Git
