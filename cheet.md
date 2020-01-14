@@ -124,10 +124,10 @@ Comme son nom l’indique, rebase est là pour changer la « base » d’une bra
 
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ### 10.1 : définitions du repository remote :
-Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est stocké le projet sur le serveur qui fait office de référant. Vous ne pouvez pas directement modifier ces fichiers.
+Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est stocké le projet sur le serveur qui fait office de référant. Vous ne pouvez pas directement modifier ces fichiers.C'est la référence lorsque vous clonez un projet sur votre environnement afin d'en créer une réplique local et d'en initialiser la révision la plus récente en tant qu'état des fichiers de l'espace de travail.
 
 
-### 10.2 : interêt du repository:
+### 10.2 : interêt du repository remote :
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
 Récupérer le contenu du repository distant et met le nouveau contenu du repository local dans le working directory. 
