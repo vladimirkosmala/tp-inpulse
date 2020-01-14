@@ -130,6 +130,7 @@ Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est
 ### 10.2 : interêt du repository remote :
 
 Pour pouvoir collaborer sur un projet Git, il est nécessaire de savoir comment gérer les dépôts distants. Les dépôts distants sont des versions de votre projet qui sont hébergées sur Internet ou le réseau d’entreprise. Vous pouvez en avoir plusieurs, pour lesquels vous pouvez avoir des droits soit en lecture seule, soit en lecture/écriture.
+Collaborer avec d’autres personnes consiste à gérer ces dépôts distants, en poussant ou tirant des données depuis et vers ces dépôts quand vous souhaitez partager votre travail.
 
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
