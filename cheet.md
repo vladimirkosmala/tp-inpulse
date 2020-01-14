@@ -108,6 +108,10 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 
 `git branch  [nom de votre nouvelle Branche]` 
 
+###  8.4 Renommez la branche actuelle 
+
+`git branch -m <nouveau nom de la branche>`
+
 ## 9.Commandes pour la synchronisation (merge et rebase)
 ### 9.1 Definition Merge
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
