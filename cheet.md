@@ -113,8 +113,14 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 `git branch -m <nouveau nom de la branche>`
 
 ## 9.Commandes pour la synchronisation (merge et rebase)
+
 ### 9.1 Definition Merge
+
 Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer la branche courante de sorte qu’elle incorpore le travail d’une autre branche.
+
+## 9.2 Definition Rebase
+
+Comme son nom l’indique, rebase est là pour changer la « base » d’une branche, c’est-à-dire son point de départ. Elle rejoue une série de commits à partir d’un nouvelle base de travail.
 
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ### 10.1 : définitions du repository:
@@ -128,7 +134,7 @@ Récupérer le contenu du repository distant et met le nouveau contenu du reposi
 `git pull`
 
 ### 11.2 définition git fetch:
-		git fetch[<NOM>]
+
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ### 12.1 Définition de git push
 Git push: envoie des modifications sur le repository.
