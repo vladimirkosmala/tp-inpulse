@@ -111,7 +111,9 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 ## 9.Commandes pour la synchronisation (merge et rebase)
 ### 9.1 Definition Merge
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
-### 10.1 : définitions du repository:Le répertoire caché .git est nommé dépôt (en anglais repository)Il contient toutes les données dont GIT a besoin pour gérer l’historique. Sauf rarissimes exceptions, vous ne modifierez jamais son contenu directement, mais uniquement en passant par les commandes GIT..
+### 10.1 : définitions du repository:
+repository: l’emplacement des versions enregistrées dans Git
+Le répertoire caché .git est nommé dépôt (en anglais repository) Il contient toutes les données dont GIT a besoin pour gérer l’historique. Sauf rarissimes exceptions, vous ne modifierez jamais son contenu directement, mais uniquement en passant par les commandes GIT..
 ### 10.2 : interêt du repository:
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
