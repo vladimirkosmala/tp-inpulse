@@ -112,8 +112,9 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 ### 9.1 Definition Merge
 Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer la branche courante de sorte qu’elle incorpore le travail d’une autre branche.
 ## 9.2 Definition Rebase
+Comme son nom l’indique, rebase est là pour changer la « base » d’une branche, c’est-à-dire son point de départ. Elle rejoue une série de commits à partir d’un nouvelle base de travail.
 
-## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
+#t intérêt dans l'utilisation d'un repository remote (ex : Github)
 ### 10.1 : définitions du repository:
 repository: l’emplacement des versions enregistrées dans Git
 Le répertoire caché .git est nommé dépôt (en anglais repository) Il contient toutes les données dont GIT a besoin pour gérer l’historique. Sauf rarissimes exceptions, vous ne modifierez jamais son contenu directement, mais uniquement en passant par les commandes GIT..
