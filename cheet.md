@@ -34,11 +34,37 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ### 3.1 Définition de working directory
-## 4. Commandes pour modifier un fichier (add + commit)
-### 4.1 le git add :
-#### 4.1.1 Stages the files, ready for commit
-### 4.2 le git commit :  
-#### 4.2.1 commit all staged files to versioned history
+
+## 4. Definition des commandes `git add`  &  `git commit`
+
+### 4.1 ADD
+`git add <nomDuFichier>`
+
+<p> Stages the files, ready for commit </p>
+
+<p>La commande <i>git add</i> permet l'ajout d'un fichier du working directory à la staging area</p>
+
+commande associée | Definition
+--- | --- 
+`-f` ou `--force` | Autoriser l'ajout de fichiers autrement ignorés.
+`-n` ou `--dry-run` | N'ajoutez pas réellement le ou les fichiers, montrez simplement s'ils existent et / ou seront ignorés.
+
+
+### 4.2 COMMIT
+
+`git commit <nomDuFichier>`
+
+<p> commit all staged files to versioned history </p>
+
+<p>La commande <i>git commit </i> permet l'ajout d'un fichier de la staging area au repository. L'execution de cette commande lance un editeur de texte afin de préciser la description synthétique du commit </p>
+
+commande associée | Definition
+--- | --- 
+`-m "commit message"` | Utilisez le < commit message> donné comme message de validation. Si plusieurs -m options sont données, leurs valeurs sont concaténées en paragraphes séparés. L' -m option est mutuellement exclusive avec -c, -Cet -F.
+`--cleanup = <mode>` | Cette option détermine comment le message de validation fourni doit être nettoyé avant la validation. Le <mode> peut être strip, whitespace, verbatim, scissorsou default.
+`-a` ou `--all`| commit tous les fichiers qui ont été modifiés et supprimés, mais les nouveaux fichiers dont vous n'avez pas parlé à Git ne sont pas affectés.
+
+
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status: 
 Montre les chemins qui ont des différences entre le fichier d’index et le commit HEAD actuel.
