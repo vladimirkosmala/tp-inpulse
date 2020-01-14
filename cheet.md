@@ -123,9 +123,10 @@ Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer 
 Comme son nom l’indique, rebase est là pour changer la « base » d’une branche, c’est-à-dire son point de départ. Elle rejoue une série de commits à partir d’un nouvelle base de travail.
 
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
-### 10.1 : définitions du repository:
-repository: l’emplacement des versions enregistrées dans Git
-Le répertoire caché .git est nommé dépôt (en anglais repository) Il contient toutes les données dont GIT a besoin pour gérer l’historique. Sauf rarissimes exceptions, vous ne modifierez jamais son contenu directement, mais uniquement en passant par les commandes GIT..
+### 10.1 : définitions du repository remote :
+Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est stocké le projet sur le serveur qui fait office de référant. Vous ne pouvez pas directement modifier ces fichiers.
+
+
 ### 10.2 : interêt du repository:
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
