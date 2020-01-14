@@ -111,6 +111,7 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 ## 9.Commandes pour la synchronisation (merge et rebase)
 ### 9.1 Definition Merge
 Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer la branche courante de sorte qu’elle incorpore le travail d’une autre branche.
+## 9.2 Definition Rebase
 
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ### 10.1 : définitions du repository:
