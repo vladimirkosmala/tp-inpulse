@@ -33,9 +33,11 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 	On peut également créer un repository en ligne directement sur github.com en appuyant sur New en haut gauche de la page il suffit ensuite de remplir les différents champs. On peut le mettre en publique ou bien privé également et récuperer son url.
 
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
+![Schema](https://miro.medium.com/max/686/1*diRLm1S5hkVoh5qeArND0Q.png)
 ### 3.1 Définition de working directory
 
-La zone de travail ou working directory est l'espace où se trouvent les fichiers tout juste modifiés.
+<p>La zone de travail ou working directory est l'espace où se trouvent les fichiers tout juste modifiés.</p>
+
 
 ## 4. Definition des commandes `git add`  &  `git commit`
 
@@ -70,8 +72,14 @@ commande associée | Definition
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status: 
 Montre les chemins qui ont des différences entre le fichier d’index et le commit HEAD actuel.
+	Exemple: Avant d'effectuer une modification -> ```git status``` : Sur la branche tp3-blabla-monNom, 
+																		rien à valider, la copie de travail est propre
+
 ###  5.2 Le git diff:
 C'est une commande multi-fonction qui affiche les modifications entre l’arbre de travail et l’index ou un arbre, les modifications entre l’index et un arbre, les modifications entre deux arbres, les modifications entre deux objets blobs ou les modifications entre deux fichiers sur disque.
+	Exemple: Mon texte initial est 'blabla' et je le change en blapbloup -> ```git diff``` : - bla 
+																							 + pbloup
+							
 
 ## 6.Commande pour vérifier l'historique des modifications (log)
 
@@ -140,6 +148,10 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 
 `git branch -m <nouveau nom de la branche>`
 
+###  8.5 Passer à une branche existante appelée "branche-nom"
+
+`git checkout <branch_name>`
+
 ## 9.Commandes pour la synchronisation (merge et rebase)
 
 ### 9.1 Definition Merge
@@ -159,9 +171,13 @@ Comme son nom l’indique, rebase est là pour changer la « base » d’une bra
 Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est stocké le projet sur le serveur qui fait office de référant. Vous ne pouvez pas directement modifier ces fichiers.C'est la référence lorsque vous clonez un projet sur votre environnement afin d'en créer une réplique local et d'en initialiser la révision la plus récente en tant qu'état des fichiers de l'espace de travail.
 
 
-### 10.2 : interêt du repository:
 
-L’interet du repository est de pouvoir travailler en collaboration tout en étant chez soi. En effet lorsqu’on ajoute ou qu’on modifie un fichier on peut l’envoyer sur le repository afin que tous les collaborateurs puissent le récupérer. Il n'y a pas d'interaction physique comme les clés usb qui peuvent être perdu etc.. C'est un espace de stockage sur internet.
+### 10.2 : interêt du repository remote :
+
+Pour pouvoir collaborer sur un projet Git, il est nécessaire de savoir comment gérer les dépôts distants. Les dépôts distants sont des versions de votre projet qui sont hébergées sur Internet ou le réseau d’entreprise. Vous pouvez en avoir plusieurs, pour lesquels vous pouvez avoir des droits soit en lecture seule, soit en lecture/écriture.
+Collaborer avec d’autres personnes consiste à gérer ces dépôts distants, en poussant ou tirant des données depuis et vers ces dépôts quand vous souhaitez partager votre travail.
+Gérer des dépôts distants inclut savoir comment ajouter des dépôts distants, effacer des dépôts distants qui ne sont plus valides, gérer des branches distantes et les définir comme suivies ou non, et plus encore. Dans cette section, nous traiterons des commandes de gestion distante.
+
 
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
