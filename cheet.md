@@ -169,6 +169,15 @@ Récupérer le contenu du repository distant et met le nouveau contenu du reposi
 
 ### 11.2 définition git fetch:
 
+	git fetch[<NOM>]
+
+	Récupérer le contenu du repository distant, équivalent à le télécharger.
+
+	git fetch
+
+	Synchronizer avec le remote
+	Récupérer les commits et pointeurs distants.
+
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ### 12.1 Définition de git push
 Git push: envoie des modifications sur le repository.
