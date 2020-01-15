@@ -34,11 +34,37 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ### 3.1 Définition de working directory
-## 4. Commandes pour modifier un fichier (add + commit)
-### 4.1 le git add :
-#### 4.1.1 Stages the files, ready for commit
-### 4.2 le git commit :  
-#### 4.2.1 commit all staged files to versioned history
+
+## 4. Definition des commandes `git add`  &  `git commit`
+
+### 4.1 ADD
+`git add <nomDuFichier>`
+
+<p> Stages the files, ready for commit </p>
+
+<p>La commande <i>git add</i> permet l'ajout d'un fichier du working directory à la staging area</p>
+
+commande associée | Definition
+--- | --- 
+`-f` ou `--force` | Autoriser l'ajout de fichiers autrement ignorés.
+`-n` ou `--dry-run` | N'ajoutez pas réellement le ou les fichiers, montrez simplement s'ils existent et / ou seront ignorés.
+
+
+### 4.2 COMMIT
+
+`git commit <nomDuFichier>`
+
+<p> commit all staged files to versioned history </p>
+
+<p>La commande <i>git commit </i> permet l'ajout d'un fichier de la staging area au repository. L'execution de cette commande lance un editeur de texte afin de préciser la description synthétique du commit </p>
+
+commande associée | Definition
+--- | --- 
+`-m "commit message"` | Utilisez le < commit message> donné comme message de validation. Si plusieurs -m options sont données, leurs valeurs sont concaténées en paragraphes séparés. L' -m option est mutuellement exclusive avec -c, -Cet -F.
+`--cleanup = <mode>` | Cette option détermine comment le message de validation fourni doit être nettoyé avant la validation. Le <mode> peut être strip, whitespace, verbatim, scissorsou default.
+`-a` ou `--all`| commit tous les fichiers qui ont été modifiés et supprimés, mais les nouveaux fichiers dont vous n'avez pas parlé à Git ne sont pas affectés.
+
+
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status: 
 Montre les chemins qui ont des différences entre le fichier d’index et le commit HEAD actuel.
@@ -122,9 +148,14 @@ Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer 
 
 Comme son nom l’indique, rebase est là pour changer la « base » d’une branche, c’est-à-dire son point de départ. Elle rejoue une série de commits à partir d’un nouvelle base de travail.
 
+## 9.3 Utilisation
+
+
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
+
 ### 10.1 : définitions du repository remote :
 Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est stocké le projet sur le serveur qui fait office de référant. Vous ne pouvez pas directement modifier ces fichiers.C'est la référence lorsque vous clonez un projet sur votre environnement afin d'en créer une réplique local et d'en initialiser la révision la plus récente en tant qu'état des fichiers de l'espace de travail.
+
 
 
 ### 10.2 : interêt du repository remote :
@@ -132,11 +163,23 @@ Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est
 Pour pouvoir collaborer sur un projet Git, il est nécessaire de savoir comment gérer les dépôts distants. Les dépôts distants sont des versions de votre projet qui sont hébergées sur Internet ou le réseau d’entreprise. Vous pouvez en avoir plusieurs, pour lesquels vous pouvez avoir des droits soit en lecture seule, soit en lecture/écriture.
 Collaborer avec d’autres personnes consiste à gérer ces dépôts distants, en poussant ou tirant des données depuis et vers ces dépôts quand vous souhaitez partager votre travail.
 
+
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
 Récupérer le contenu du repository distant et met le nouveau contenu du repository local dans le working directory. 
 
 `git pull`
+
+### 11.2 définition git fetch:
+
+	git fetch[<NOM>]
+
+	Récupérer le contenu du repository distant, équivalent à le télécharger.
+
+	git fetch
+
+	Synchronizer avec le remote
+	Récupérer les commits et pointeurs distants.
 
 ## 12. Envoie des modifications du repository local à l'origine (push et pull request)
 ### 12.1 Définition de git push
