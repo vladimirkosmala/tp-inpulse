@@ -33,7 +33,9 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 	On peut également créer un repository en ligne directement sur github.com en appuyant sur New en haut gauche de la page il suffit ensuite de remplir les différents champs. On peut le mettre en publique ou bien privé également et récuperer son url.
 
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
+![Schema](https://miro.medium.com/max/686/1*diRLm1S5hkVoh5qeArND0Q.png)
 ### 3.1 Définition de working directory
+
 
 ## 4. Definition des commandes `git add`  &  `git commit`
 
