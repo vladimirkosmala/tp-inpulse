@@ -68,8 +68,14 @@ commande associée | Definition
 ## 5. Commandes pour vérifier l'état des fichiers (status et diff)
 ###  5.1 Le git status: 
 Montre les chemins qui ont des différences entre le fichier d’index et le commit HEAD actuel.
+	Exemple: Avant d'effectuer une modification -> ```git status``` : Sur la branche tp3-blabla-monNom, 
+																		rien à valider, la copie de travail est propre
+
 ###  5.2 Le git diff:
 C'est une commande multi-fonction qui affiche les modifications entre l’arbre de travail et l’index ou un arbre, les modifications entre l’index et un arbre, les modifications entre deux arbres, les modifications entre deux objets blobs ou les modifications entre deux fichiers sur disque.
+	Exemple: Mon texte initial est 'blabla' et je le change en blapbloup -> ```git diff``` : - bla 
+																							 + pbloup
+							
 
 ## 6.Commande pour vérifier l'historique des modifications (log)
 
