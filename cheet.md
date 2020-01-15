@@ -39,6 +39,10 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 <p>La zone de travail ou working directory est l'espace où se trouvent les fichiers tout juste modifiés.</p>
 
 
+### 3.2 Définition de stating area
+
+
+
 ## 4. Definition des commandes `git add`  &  `git commit`
 
 ### 4.1 ADD
