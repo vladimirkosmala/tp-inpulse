@@ -35,6 +35,10 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ### 3.1 Définition de working directory
 
+
+
+Le repository est la zone où le fichier commité est prêt à être envoyé sur un serveur distant
+
 ## 4. Definition des commandes `git add`  &  `git commit`
 
 ### 4.1 ADD
