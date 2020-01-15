@@ -36,13 +36,17 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 ![Schema](https://miro.medium.com/max/686/1*diRLm1S5hkVoh5qeArND0Q.png)
 ### 3.1 Définition de working directory
 
-<p>La zone de travail ou working directory est l'espace où se trouvent les fichiers tout juste modifiés.</p>
 
 <p> La staging area ou index est la zone qui permet de stocker les modifications avant d'être commit</p>
   
 
 ### 3.2 Définition de stating area
 
+
+
+
+
+### 3.3 Définition de repository
 
 ## 4. Definition des commandes `git add`  &  `git commit`
 
