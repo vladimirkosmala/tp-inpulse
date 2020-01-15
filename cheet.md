@@ -152,6 +152,17 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 
 `git checkout <branch_name>`
 
+### 8.6 Surpprimer une branche GIT locale
+
+`git branch -d branch_name`
+`git branch -D branch_name`
+
+comme vous pouvez le voir ci-dessus, nous avons 2 arguments différents, un avec «d» et un avec «D».
+
+L'option -d signifie --delete, qui supprimerait la branche locale, uniquement si vous l'avez déjà poussée et fusionnée avec vos branches distantes.
+
+L'option -D signifie --delete --force, qui supprime la branche indépendamment de son état de push et de fusion, alors soyez prudent en utilisant celle-ci!
+
 ## 9.Commandes pour la synchronisation (merge et rebase)
 
 ### 9.1 Definition Merge
