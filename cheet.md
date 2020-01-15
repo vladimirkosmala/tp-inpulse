@@ -40,6 +40,10 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 
 <p> La staging area ou index est la zone qui permet de stocker les modifications avant d'être commit</p>
   
+
+### 3.2 Définition de stating area
+
+
 ## 4. Definition des commandes `git add`  &  `git commit`
 
 ### 4.1 ADD
