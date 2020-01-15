@@ -138,6 +138,10 @@ Nous obtenons la liste de toutes les branches, la branche actuelle sera marquée
 
 `git branch -m <nouveau nom de la branche>`
 
+###  8.5 Passer à une branche existante appelée "branche-nom"
+
+`git checkout <branch_name>`
+
 ## 9.Commandes pour la synchronisation (merge et rebase)
 
 ### 9.1 Definition Merge
