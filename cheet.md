@@ -167,9 +167,12 @@ Comme son nom l’indique, rebase est là pour changer la « base » d’une bra
 Le Remote Repository est le dépôt distant. C'est le dossier dans lequel est stocké le projet sur le serveur qui fait office de référant. Vous ne pouvez pas directement modifier ces fichiers.C'est la référence lorsque vous clonez un projet sur votre environnement afin d'en créer une réplique local et d'en initialiser la révision la plus récente en tant qu'état des fichiers de l'espace de travail.
 
 
-### 10.2 : interêt du repository:
 
-L’interet du repository est de pouvoir travailler en collaboration tout en étant chez soi. En effet lorsqu’on ajoute ou qu’on modifie un fichier on peut l’envoyer sur le repository afin que tous les collaborateurs puissent le récupérer. Il n'y a pas d'interaction physique comme les clés usb qui peuvent être perdu etc.. C'est un espace de stockage sur internet.
+### 10.2 : interêt du repository remote :
+
+Pour pouvoir collaborer sur un projet Git, il est nécessaire de savoir comment gérer les dépôts distants. Les dépôts distants sont des versions de votre projet qui sont hébergées sur Internet ou le réseau d’entreprise. Vous pouvez en avoir plusieurs, pour lesquels vous pouvez avoir des droits soit en lecture seule, soit en lecture/écriture.
+Collaborer avec d’autres personnes consiste à gérer ces dépôts distants, en poussant ou tirant des données depuis et vers ces dépôts quand vous souhaitez partager votre travail.
+
 
 ## 11.Commandes pour récupérer modifications dans le repository remote (pull et fetch)
 ### 11.1 définition git pull
