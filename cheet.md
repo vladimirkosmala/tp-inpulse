@@ -35,7 +35,7 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 ## 3. Définition des 3 états possibles (working directory, staging area, et repository)
 ![Schema](https://miro.medium.com/max/686/1*diRLm1S5hkVoh5qeArND0Q.png)
 ### 3.1 Définition de working directory
-
+![Schema](https://www.earthdatascience.org/images/workshops/version-control/git-add-commit.png)
 
 <p> La staging area ou index est la zone qui permet de stocker les modifications avant d'être commit</p>
   
