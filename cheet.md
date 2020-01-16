@@ -48,6 +48,13 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 
 ### 3.3 Définition de repository
 
+
+
+
+
+
+<p>Le repository est la zone où le fichier commité est prêt à être envoyé sur un serveur distant</p>
+  
 ## 4. Definition des commandes `git add`  &  `git commit`
 
 ### 4.1 ADD
