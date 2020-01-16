@@ -119,7 +119,7 @@ Comme son nom l’indique, merge réalise une fusion. On souhaite faire avancer 
 Comme son nom l’indique, rebase est là pour changer la « base » d’une branche, c’est-à-dire son point de départ. Elle rejoue une série de commits à partir d’un nouvelle base de travail.
 
 ## 9.3 Utilisation
-
+Le choix entre ces deux méthodes dépend du nombre de branches à synchroniser et du nombre de corrections traitant sur un même périmètre technique. En effet, suite à un merge de plusieurs branches, le graphe historique serait difficile à comprendre. Dans la mesure où les commits de fusion n’apportent pas d’information utile, ils polluent l’historique [2]. Et si, par exemple, plusieurs corrections sont réalisées sur une même fonction, c’est pénible de rejouer tous les commits de rebase.
 
 ## 10.Définition et intérêt dans l'utilisation d'un repository remote (ex : Github)
 ### 10.1 : définitions du repository:
