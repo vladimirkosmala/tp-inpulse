@@ -37,23 +37,15 @@ Git est un système de contrôle de version open source gratuit, créé par Linu
 ### 3.1 Définition de working directory
 ![Schema](https://www.earthdatascience.org/images/workshops/version-control/git-add-commit.png)
 
-<p> La staging area ou index est la zone qui permet de stocker les modifications avant d'être commit</p>
-  
+La working directory ou zone de travail est la zone où les fichiers sont modifiés  
 
-### 3.2 Définition de stating area
+### 3.2 Définition de staging area
 
-
-
-
+La staging area ou index est la zone qui permet de stocker les modifications avant d'être commit
 
 ### 3.3 Définition de repository
 
-
-
-
-
-
-<p>Le repository est la zone où le fichier commité est prêt à être envoyé sur un serveur distant</p>
+Le repository est la zone où le fichier commité est prêt à être envoyé sur un serveur distant
   
 ## 4. Definition des commandes `git add`  &  `git commit`
 
