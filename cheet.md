@@ -46,6 +46,8 @@ La staging area ou index est la zone qui permet de stocker les modifications ava
 ### 3.3 Définition de repository
 
 Le repository est la zone où le fichier commité est prêt à être envoyé sur un serveur distant
+
+![Schemafinal](file:///home/superadmin/Bureau/gitetats.jpg)
   
 ## 4. Definition des commandes `git add`  &  `git commit`
 
