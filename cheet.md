@@ -249,24 +249,24 @@ https://training.github.com/
 ### 13.3 liste dans l'ordre des commandes a faire sur terminal, git hub et éditeur de texte:
 
 
-cd Documents/coursgit/tp-inpulse/tp3...
-git branch (faut que la branche soit sur tp3 sinon faire git checkout tp3)
-git pull
-git checkout -b tp3-ajout-texte-11.1
-git branch
-ouvrir le fichier sur éditeur de texte et mettre le texte : vim cheet.md (pour ceux qui utilise vim)
-git status
-git add cheet.md
-git status
-git commit -m « ajout texte dans le 11.1 »
-git push
-Coller la ligne de commande de la reponse du git push du dessus)
-rentrer le mot de passe de git 
-aller sur git hub
-cliquer sur compare & pull request
-changer master mettre tp3
-cliquer sur create pull request 
-changer le nom de la pull request au format "TP3 - Nom de la branche
+<p>cd Documents/coursgit/tp-inpulse/tp3...</p>
+<p>git branch (faut que la branche soit sur tp3 sinon faire git checkout tp3)</p>
+<p>git pull</p>
+<p>git checkout -b tp3-ajout-texte-11.1</p>
+<p>git branch</p>
+<p>ouvrir le fichier sur éditeur de texte et mettre le texte : vim cheet.md (pour ceux qui utilise vim)</p>
+<p>git status</p>
+<p>git add cheet.md</p>
+<p>git status</p>
+<p>git commit -m « ajout texte dans le 11.1 »</p>
+<p>git push</p>
+<p>coller la ligne de commande de la reponse du git push du dessus)</p>
+<p>rentrer le mot de passe de git</p> 
+<p>aller sur git hub</p>
+<p>cliquer sur compare & pull request</p>
+<p>changer master mettre tp3</p>
+<p>cliquer sur create pull request</p> 
+<p>changer le nom de la pull request au format "TP3 - Nom de la branche</p>
 
 
 
